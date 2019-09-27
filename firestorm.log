@@ -1,0 +1,20 @@
+DEBUG IPC Parameter Sending Thread #0 org.apache.hadoop.ipc.Client - IPC Client (1822971466) connection to /118.31.103.189:9000 from root sending #0
+DEBUG IPC Client (1822971466) connection to /118.31.103.189:9000 from root org.apache.hadoop.ipc.Client - IPC Client (1822971466) connection to /118.31.103.189:9000 from root got value #0
+DEBUG main org.apache.hadoop.ipc.ProtobufRpcEngine - Call: getBlockLocations took 129ms
+DEBUG main org.apache.hadoop.hdfs.DFSClient - newInfo = LocatedBlocks{
+  fileLength=86
+  underConstruction=false
+  blocks=[LocatedBlock{BP-961689585-172.16.2.197-1569307501756:blk_1073741864_1040; getBlockSize()=86; corrupt=false; offset=0; locs=[DatanodeInfoWithStorage[172.16.2.197:50010,DS-822a69c0-58d4-448c-9518-d4eb8a24df3d,DISK]]}]
+  lastLocatedBlock=LocatedBlock{BP-961689585-172.16.2.197-1569307501756:blk_1073741864_1040; getBlockSize()=86; corrupt=false; offset=0; locs=[DatanodeInfoWithStorage[172.16.2.197:50010,DS-822a69c0-58d4-448c-9518-d4eb8a24df3d,DISK]]}
+  isLastBlockComplete=true}
+DEBUG main org.apache.hadoop.hdfs.DFSClient - Connecting to datanode izbp1grkell15a8b3053b3z:50010
+DEBUG IPC Parameter Sending Thread #0 org.apache.hadoop.ipc.Client - IPC Client (1822971466) connection to /118.31.103.189:9000 from root sending #1
+DEBUG IPC Client (1822971466) connection to /118.31.103.189:9000 from root org.apache.hadoop.ipc.Client - IPC Client (1822971466) connection to /118.31.103.189:9000 from root got value #1
+DEBUG main org.apache.hadoop.ipc.ProtobufRpcEngine - Call: getServerDefaults took 13ms
+DEBUG main org.apache.hadoop.hdfs.protocol.datatransfer.sasl.SaslDataTransferClient - SASL client skipping handshake in unsecured configuration for addr = /118.31.103.189, datanodeId = DatanodeInfoWithStorage[172.16.2.197:50010,DS-822a69c0-58d4-448c-9518-d4eb8a24df3d,DISK]
+DEBUG Thread-2 org.apache.hadoop.ipc.Client - stopping client from cache: org.apache.hadoop.ipc.Client@41d477ed
+DEBUG Thread-2 org.apache.hadoop.ipc.Client - removing client from cache: org.apache.hadoop.ipc.Client@41d477ed
+DEBUG Thread-2 org.apache.hadoop.ipc.Client - stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@41d477ed
+DEBUG Thread-2 org.apache.hadoop.ipc.Client - Stopping client
+DEBUG IPC Client (1822971466) connection to /118.31.103.189:9000 from root org.apache.hadoop.ipc.Client - IPC Client (1822971466) connection to /118.31.103.189:9000 from root: closed
+DEBUG IPC Client (1822971466) connection to /118.31.103.189:9000 from root org.apache.hadoop.ipc.Client - IPC Client (1822971466) connection to /118.31.103.189:9000 from root: stopped, remaining connections 0
